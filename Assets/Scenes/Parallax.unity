@@ -117,6 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7870075}
   - component: {fileID: 7870074}
+  - component: {fileID: 7870076}
   m_Layer: 0
   m_Name: planet2
   m_TagString: Untagged
@@ -176,9 +177,21 @@ Transform:
   m_LocalPosition: {x: -10.78, y: 2.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1455224236}
-  m_RootOrder: 1
+  m_Father: {fileID: 291943504}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7870076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7870073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d164ef66e2a0894186e2acc6e1326c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxSpeed: 0.6
 --- !u!1 &291943503
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +218,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1968829318}
-  - {fileID: 1455224236}
+  - {fileID: 1998900455}
+  - {fileID: 1630639977}
+  - {fileID: 7870075}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -505,50 +520,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!1 &1455224235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1455224236}
-  - component: {fileID: 1455224237}
-  m_Layer: 0
-  m_Name: BG_Layer2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1455224236
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1455224235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1998900455}
-  - {fileID: 7870075}
-  - {fileID: 1630639977}
-  m_Father: {fileID: 291943504}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1455224237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1455224235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d164ef66e2a0894186e2acc6e1326c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxSpeed: 0.5
 --- !u!1 &1630639975
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1630639977}
   - component: {fileID: 1630639976}
+  - component: {fileID: 1630639978}
   m_Layer: 0
   m_Name: planet3
   m_TagString: Untagged
@@ -617,9 +589,21 @@ Transform:
   m_LocalPosition: {x: 13.03, y: 3.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1455224236}
+  m_Father: {fileID: 291943504}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1630639978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1630639975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d164ef66e2a0894186e2acc6e1326c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxSpeed: 0.4
 --- !u!1 &1968829317
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998900455}
   - component: {fileID: 1998900454}
+  - component: {fileID: 1998900456}
   m_Layer: 0
   m_Name: planet1
   m_TagString: Untagged
@@ -798,6 +783,18 @@ Transform:
   m_LocalPosition: {x: 3.04, y: -6.42, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
-  m_Father: {fileID: 1455224236}
-  m_RootOrder: 0
+  m_Father: {fileID: 291943504}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1998900456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1998900453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d164ef66e2a0894186e2acc6e1326c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxSpeed: 0.2
