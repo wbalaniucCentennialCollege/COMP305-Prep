@@ -20,12 +20,11 @@ public class EnemyHealth : MonoBehaviour {
     void Update () {
 		if(currentHealth <= 0.0f)
         {
+            this.transform.parent.GetComponent<EnemyManager>().RemoveEnemy(this.gameObject);
             Destroy(this.gameObject);
         }
 
         slider.value = currentHealth;
-
-        Debug.Log(currentHealth);
 	}
 
     public void Hit(float hitValue)

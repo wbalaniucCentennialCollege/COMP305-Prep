@@ -4,13 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-  - Enemy
-  - Shot
-=======
-  - Cannon
   - Crate
->>>>>>> 870183dc76972e5d25c24ed02db92dc2b8574055
+  - Cannon
+  - Shot
   layers:
   - Default
   - TransparentFX
@@ -20,13 +16,8 @@ TagManager:
   - UI
   - 
   - 
-<<<<<<< HEAD
-  - Enemy
   - 
-=======
-  - Explosion
-  - ReactToExplosion
->>>>>>> 870183dc76972e5d25c24ed02db92dc2b8574055
+  - 
   - 
   - 
   - 
