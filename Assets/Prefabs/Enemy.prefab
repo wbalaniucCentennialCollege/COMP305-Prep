@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 224699122662181830}
   - component: {fileID: 222067971022901658}
   - component: {fileID: 114453000515115842}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 224137374185038752}
   - component: {fileID: 222065940735840124}
   - component: {fileID: 114362175636365942}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 223706464133055252}
   - component: {fileID: 114112611441688100}
   - component: {fileID: 114744727075455474}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: HealthCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 114903257052172406}
   - component: {fileID: 114587590676387916}
   - component: {fileID: 114879472790864818}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 223040335355103748}
   - component: {fileID: 114777204542450194}
   - component: {fileID: 114796017621027164}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SpeechCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224493108953705468}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 224899673607265546}
   - component: {fileID: 222472407666006134}
   - component: {fileID: 114628992545704586}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224486009821006544}
   - component: {fileID: 114677194570414990}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: HealthSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
