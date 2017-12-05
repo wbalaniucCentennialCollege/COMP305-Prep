@@ -4,17 +4,28 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour {
 
-    private List<GameObject> items;
+    private List<Item> items;
 
     void Start()
     {
-        items = new List<GameObject>();
+        items = new List<Item>();
     }
 	
-    public void addItem(GameObject o)
+    public void addItem(Item it)
     {
-        items.Add(o);
-        Debug.Log("Added: " + o.name);
-        Debug.Log("Items collects: " + items.Count);
+        items.Add(it);
+
+        // Update our Inventory UI here
+        GameObject inventoryUI = GameObject.Find("SlotPanel");
+        inventoryUI.GetComponent<InventoryUIManager>().UpdateUI();
     }
+
+    public void PrintList()
+    {
+        foreach(Item i in items)
+        {
+            Debug.Log(i.itemName);
+        }
+    }
+
 }

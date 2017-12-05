@@ -25,7 +25,7 @@ public class EnemySpeechController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Talk () {
-        speechText.text = speech[Random.Range(0, speech.Length - 1)];
+        speechText.text = speech[Random.Range(0, speech.Length)];
 
         speechBubble.gameObject.SetActive(true);
         speechText.gameObject.SetActive(true);

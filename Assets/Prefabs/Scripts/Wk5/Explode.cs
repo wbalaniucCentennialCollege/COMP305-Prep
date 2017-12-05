@@ -12,7 +12,7 @@ public class Explode : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        rBody = this.GetComponent<Rigidbody>();
+        // rBody = this.GetComponent<Rigidbody>();
 
         hits = Physics2D.CircleCastAll(this.transform.position, explosionRadius, Vector2.zero);
 
@@ -21,10 +21,5 @@ public class Explode : MonoBehaviour {
             if(h.transform.gameObject.tag == "Crate")
                 h.rigidbody.AddForce((h.transform.position - this.transform.position) * explosionForce, ForceMode2D.Impulse);
         }
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }
