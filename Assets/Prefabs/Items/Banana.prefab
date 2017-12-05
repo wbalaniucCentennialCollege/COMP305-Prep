@@ -102,6 +102,7 @@ MonoBehaviour:
   itemName: Banana
   points: 20
   flashColour: {r: 1, g: 0.9726166, b: 0.007352948, a: 0}
+  sprite: {fileID: 21300000, guid: fbfdd27d313c64742a44f296f5928dc4, type: 3}
 --- !u!212 &212365001429026526
 SpriteRenderer:
   m_ObjectHideFlags: 1

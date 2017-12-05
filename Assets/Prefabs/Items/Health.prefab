@@ -102,6 +102,7 @@ MonoBehaviour:
   itemName: Health
   points: 10
   flashColour: {r: 1, g: 1, b: 1, a: 0}
+  sprite: {fileID: 21300000, guid: 17937cf819540b046b74a1a56616d45d, type: 3}
 --- !u!212 &212195623652622898
 SpriteRenderer:
   m_ObjectHideFlags: 1

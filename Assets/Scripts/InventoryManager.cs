@@ -17,7 +17,7 @@ public class InventoryManager : MonoBehaviour {
 
         // Update our Inventory UI here
         GameObject inventoryUI = GameObject.Find("SlotPanel");
-        inventoryUI.GetComponent<InventoryUIManager>().UpdateUI();
+        inventoryUI.GetComponent<InventoryUIManager>().UpdateUI(it);
     }
 
     public void PrintList()

@@ -102,6 +102,7 @@ MonoBehaviour:
   itemName: Mushroom
   points: 50
   flashColour: {r: 1, g: 0, b: 0, a: 0}
+  sprite: {fileID: 21300000, guid: 2edebd9778f559f48b6f5f5ef34919c0, type: 3}
 --- !u!212 &212256089969414730
 SpriteRenderer:
   m_ObjectHideFlags: 1
