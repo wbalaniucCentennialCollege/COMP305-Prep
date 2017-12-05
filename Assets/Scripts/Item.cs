@@ -8,6 +8,7 @@ public class Item : MonoBehaviour
     public string itemName;
     public float points;
     public Color flashColour;
+    public Sprite sprite;
 
     private Image flashImage;
 
@@ -22,8 +23,10 @@ public class Item : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<InventoryManager>().addItem(this.gameObject);
-            Destroy(this.gameObject);
+            other.gameObject.GetComponent<InventoryManager>().addItem(this.gameObject.GetComponent<Item>());
+            // Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
+            // other.gameObject.GetComponent<InventoryManager>().PrintList();
         }
     }
 }
